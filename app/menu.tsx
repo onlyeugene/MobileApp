@@ -58,6 +58,7 @@ export default function MenuScreen() {
           <View style={styles.row}>
             <View style={styles.menuTextRow}>
               <Text style={[styles.menuItemTitle, styles.menuItemText]}>{item.title}</Text>
+              <Text style={styles.menuItemText}>{item.description}</Text>
             </View>
             <Image
               style={styles.image}
